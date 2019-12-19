@@ -34,7 +34,7 @@ $ npm run dev
 
 
 ### 網頁功能
-建立專屬的記帳功能。
+簡單按鈕協助測試。
 ![image](https://github.com/tonyfang1992/ACs3_Finalexam_A30-1/blob/master/A30-1.png)
 
 ## Authors
