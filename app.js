@@ -6,6 +6,7 @@ const exphbs = require('express-handlebars')
 const methodOverride = require('method-override')
 const { recordtime } = require('./function/record.js')
 
+app.get('/favicon.ico', (req, res) => res.status(204));
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(methodOverride('_method'))
 app.use(recordtime)
